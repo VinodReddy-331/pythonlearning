@@ -14,5 +14,8 @@ casting of a variable can be by using datatype(datavalue) ex: x = str(3), y = fl
 
 x = 5
 X = 99
+y = "car"
 print(x)
 print(X)
+print(ys)
+
