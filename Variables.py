@@ -17,5 +17,5 @@ X = 99
 y = "car"
 print(x)
 print(X)
-print(ys)
+print(y)
 
