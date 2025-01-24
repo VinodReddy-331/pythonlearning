@@ -19,3 +19,5 @@ print(x)
 print(X)
 print(y)
 
+a = 10
+b = 30
