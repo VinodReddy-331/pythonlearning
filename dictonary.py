@@ -5,6 +5,7 @@ myDictonary = {
 }
 
 print(myDictonary)
+print("Brand name is %s " %myDictonary['brand'])
 
 print(myDictonary['brand'])
 print(myDictonary['model'])
@@ -29,6 +30,7 @@ myfamily = {
 print(myfamily['child1']['name'])
 print(myfamily['child2']['name'])
 print(myfamily['child3']['name'])
+
 
 for x in myfamily.items():
     print(x)
