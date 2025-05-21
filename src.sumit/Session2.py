@@ -18,8 +18,8 @@ print(math.floor(tg_ka_distance))
 
 # Conditional
 
-marks = int(input("Enter the student marks : "))
-
+# marks = int(input("Enter the student marks : "))
+marks = 80
 if marks >= 35:
     if marks >=80:
         print("Grade A")
@@ -32,18 +32,40 @@ else:
 
 
 #Assingment: Take two inputs( age >18 and crime records and no crime then eligible for vote)
-age = int(input("Enter the age: "))
-crimerecords = bool(input("do have any crime record? "))
+# age = int(input("Enter the age: "))
+# crimerecords = int(input("do have any crime record? "))
+age = 19
+crimerecords = 0
+print(type(age))
+print(type(crimerecords))
 
 print('--------------')
-print(17>=18)
-print( False & True )
+print(age >=18)
+print(crimerecords == 0)
+print(age >=18 & crimerecords == 0)
 print('--------------')
-if (age >=18 & crimerecords == False):
+if (age >=18) and (crimerecords == 0):
     print("Eligible For Voting")
-elif (age <=18 & crimerecords == False):
+elif (age <18) and  (crimerecords == 0):
     print("Age is less than 18 not Eligible For Voting")
-elif (age >=18 & crimerecords == True):
+elif (age >18) & (crimerecords == 1):
     print("Age is greater than 18 but have crime records So Not Eligible For Voting")
-else:
+elif (age < 18) & (crimerecords == 1):
     print("Age is less than 18 and also have crime records So Not Eligible For Voting")
+
+
+
+
+# String :A Sequence of Characters
+str1 = 'Vinod'
+# str1 = 'vinod is learning python course from online tutorial's
+# This condition doesn't work with single quote. So handle this we use double quotes
+str2 = "Vinod"
+str2 = "vinod is learning python course from online tutorial's"
+str3 = '''Vinod'''
+
+name = str(input("Provide the name : "))
+print(len(name))
+# Indexing ->helps to get a specific character
+# Slicing  ->helps to get the substring
+print(name[:2])
